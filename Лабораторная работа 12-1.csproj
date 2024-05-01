@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Лабораторная_работа_12_1</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AnalogWatch.cs" />
+    <Compile Remove="DigitalWatch.cs" />
+    <Compile Remove="IInit.cs" />
+    <Compile Remove="Rectangle.cs" />
+    <Compile Remove="SmartWatch.cs" />
+    <Compile Remove="SortByYear.cs" />
+    <Compile Remove="Watch.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ClassLibrary10Lab">
+      <HintPath>..\ClassLibrary10Lab\bin\Debug\net7.0\ClassLibrary10Lab.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
